@@ -130,7 +130,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BookingScheduler.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="MailSender.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Schedule.cpp" />
+    <ClCompile Include="SmsSender.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
